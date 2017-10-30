@@ -1,0 +1,55 @@
+.image-circle {
+    border-radius: 50%;/* To display rounded image */
+    float: left;
+}
+.name {
+    text-align: right;
+}
+.hr {
+    border-color: #7d97ad;
+    border-width: 1px;
+}
+.main-img {
+    width: 100%; /* To shrink/enlarge the image respective to screen size */
+}
+.sub-title {
+    color: #7d97ad;
+}
+.img {
+    width: 300px;
+    height: 200px;
+    border: 1px;
+    border-color: grey;
+}
+figure {
+    display: inline-block;
+}
+figure figcaption {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+@media screen and (max-width: 414px) { /* For mobile phones */
+    .body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: auto;
+    }
+    .header {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 800px) { /* For desktops */ 
+    .container {
+        margin: 20px;
+        padding: 20px;
+        display: inline-block;
+        overflow: auto;
+    }
+}
